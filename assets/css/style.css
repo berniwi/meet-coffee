@@ -1,0 +1,169 @@
+body{
+  text-align: center;
+  color: #000f08;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body * {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+h1{
+  font-weight: 800;
+  font-size: 3.75em;
+  margin-bottom: 0.25em;
+}
+
+h2{
+  font-weight: 700;
+  font-size: 2.5em;
+}
+
+h3{
+  font-size: 2em;
+}
+
+h4{
+  1.75em;
+}
+
+h5{
+  1.25em;
+}
+
+.subtitulo, h4, h5{
+  font-weight: 400;
+}
+.oscuro{
+  background-color: #000f08;
+  color: #ffffff;
+}
+
+.oscuro a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.sweet_brown{
+  text-align: left;
+  background: #a4452c;
+  color: #ffffff;
+  padding: 50px;
+  white-space: nowrap;
+}
+
+.hero_section{
+  text-align: right;
+  background-image: url("../img/bg-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  text-shadow: 0.125em 0.25em 0.125em #707070;
+  padding: 6.25rem 3.125rem;
+}
+
+section, footer{
+  margin-top: 75px;
+}
+
+footer{
+  padding: 50px;
+}
+
+.charla-texto, .evento{
+  display: inline-block;
+}
+
+.centrado{
+  width: 75%;
+  margin: 0 auto;
+}
+
+.charla-speaker{
+  width: 25%;
+  vertical-align: middle;
+}
+
+.charla-texto{
+  width: 70%;
+  vertical-align: middle;
+  margin: 5%;
+}
+
+.evento{
+width: 30%;
+}
+
+.img-evento{
+  width: 75%;
+}
+
+nav{
+  text-align: left;
+  padding: 1.25rem 4rem;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+nav ul{
+  list-style: none;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 0 1em;
+  vertical-align: middle;
+}
+
+.icono{
+  width: 2rem;
+}
+
+.icono svg {
+  fill: #ffffff;
+}
+
+footer i {
+  margin: 0 0.25em 0.5em 0.25em;
+}
+
+/* empieza Simposio */
+
+#eventos a{
+  text-decoration: none;
+  color: #000f08;
+}
+
+.content{
+  width: 55%;
+  padding: 0 22.5% 0 22.5%;
+  text-align: justify;
+  background-color: #ffffff;
+}
+
+.content  h1{
+  margin-top: 2em;
+}
+
+.content img{
+  width: 100%;
+  height: 100%;
+  padding-bottom: 2em;
+}
+
+.content p{
+  padding-top: 1em;
+}
+
+.content h2{
+  padding: 2rem 0 1rem 0;
+  font-size: 800;
+}
+
+.content p:last-child{
+  padding-bottom: 5rem;
+}
